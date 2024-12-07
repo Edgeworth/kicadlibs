@@ -1,0 +1,227 @@
+(footprint "ST-0277D00-052-142"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "usb usb-c 2.0 pd")
+	(property "Reference" "REF**"
+		(at 0 14.65 0)
+		(layer "F.SilkS")
+		(uuid "a144ce76-cc23-44fb-8108-bf18e64a4c3d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ST-0277D00-052-142"
+		(at 0 16.2 0)
+		(layer "F.Fab")
+		(uuid "0ca5cf76-e951-4e58-a402-14dc42a864b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f6547849-6a7c-4906-b9d6-e46ed24e460d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3a42b3e-fa39-4eed-a272-e3dbbc074c36")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfe1f4ea-1588-4240-b453-70da333fa7a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.25 0.1)
+		(end -3.25 13.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "c4aee132-234f-4eed-830d-9cf088da1d07")
+	)
+	(fp_line
+		(start -3.25 0.1)
+		(end 3.25 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "8dac9913-825f-4f09-b70d-4bbe84cfbeb9")
+	)
+	(fp_line
+		(start -3.25 13.4)
+		(end 3.25 13.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "dcbe4bba-4038-4582-a67d-1c4c996d76d1")
+	)
+	(fp_line
+		(start 3.25 0.1)
+		(end 3.25 13.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "3c109d20-e08e-44c7-8640-967c182fbf54")
+	)
+	(fp_line
+		(start -3.25 0.1)
+		(end -3.25 13.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5c16faa-42bc-4e2a-a25e-d8c5293a2b4b")
+	)
+	(fp_line
+		(start -3.25 0.1)
+		(end 3.25 0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "997cb439-e498-49c7-b411-57a3ef5a968a")
+	)
+	(fp_line
+		(start -3.25 13.4)
+		(end 3.25 13.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84966fee-864e-4cdc-8345-c62bca33694f")
+	)
+	(fp_line
+		(start 3.25 0.1)
+		(end 3.25 13.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a9e5ee8e-705b-4f0f-99fe-3d59f1cd2738")
+	)
+	(fp_line
+		(start -3.25 -2.5)
+		(end 3.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7135c793-a505-4e84-9614-771ccc269294")
+	)
+	(fp_line
+		(start -3.25 0.11)
+		(end -3.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "bd0e4f54-c283-4358-b586-06f85535308f")
+	)
+	(fp_line
+		(start 3.25 0.11)
+		(end 3.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a7968b47-2f85-481b-9e83-511909d176a4")
+	)
+	(pad "R1" thru_hole oval
+		(at 4.05 6)
+		(size 0.75 1.8)
+		(drill oval 0.45 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7c5c0df-f6d1-4a10-9de6-e5b904861f36")
+	)
+	(pad "R2" thru_hole oval
+		(at -4.05 3.25)
+		(size 0.75 1.8)
+		(drill oval 0.45 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2e1f97b0-e724-4172-8d2a-f261cd9e453b")
+	)
+	(pad "S" thru_hole oval
+		(at 4.05 2.4)
+		(size 0.75 1.8)
+		(drill oval 0.45 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5dc4787c-500b-4b2c-b886-ee32763dab59")
+	)
+	(pad "T" thru_hole oval
+		(at -4.05 11.4)
+		(size 0.75 1.8)
+		(drill oval 0.45 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "31d3af2c-5d9f-4e16-aadb-8a0e8e491268")
+	)
+	(pad "T" thru_hole oval
+		(at 4.05 11.4)
+		(size 0.75 1.8)
+		(drill oval 0.45 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "140423d1-06be-4aad-9b02-dd5f5f88ad38")
+	)
+	(model "${KIPRJMOD}/kicad-packages3D/kbd-foostan.3dshapes/ST-0277D00-052-142.step"
+		(offset
+			(xyz 0 -6.7 -2.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

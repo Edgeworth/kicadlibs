@@ -1,0 +1,233 @@
+(footprint "LED_WS2812B-PLCC4"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "http://www.world-semi.com/uploads/soft/150522/1-150522091P5.pdf")
+	(tags "LED NeoPixel")
+	(property "Reference" "RGB6"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "8399aba5-58f3-499a-b9ca-b92df7bf0361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WS2812B"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "5ca730d7-c764-400b-a227-829516678fab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6fa5539-5cd2-43dc-ae2e-82372b24fe8c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ace419e-1643-4c7e-a1d0-c4cb45019eca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7256c23e-b606-49d0-afe1-4ddeddd71031")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.5 -2.6)
+		(end 3.5 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "657f0bb2-467d-4737-9624-f08b5445e678")
+	)
+	(fp_line
+		(start -3.5 2.6)
+		(end 3.7 2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e29a2511-bef4-407b-88c4-804e2c9c722f")
+	)
+	(fp_line
+		(start 3.7 2.6)
+		(end 3.7 1.107491)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2e41398-1f2e-4f5f-b65a-afcd0d7513ed")
+	)
+	(fp_line
+		(start -3.75 -2.85)
+		(end -3.75 2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "86094537-4531-482d-bb8e-eabb4f00664a")
+	)
+	(fp_line
+		(start -3.75 2.85)
+		(end 3.75 2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc9ef197-b22d-41f2-af9d-730f3b9d451c")
+	)
+	(fp_line
+		(start 3.75 -2.85)
+		(end -3.75 -2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9cc5cb3-d9df-4b0f-83f8-e5a7fe356411")
+	)
+	(fp_line
+		(start 3.75 2.85)
+		(end 3.75 -2.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b6093c2-ca45-4fd7-af2a-1f5008ec539b")
+	)
+	(fp_line
+		(start -2.5 -2.5)
+		(end -2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "61550e57-776f-46d9-a25b-e4eafb8efa4c")
+	)
+	(fp_line
+		(start -2.5 2.5)
+		(end 2.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7bd8ee86-c3e7-4c63-9654-3993372dfe7c")
+	)
+	(fp_line
+		(start 2.5 -2.5)
+		(end -2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d9d224e-ef1f-4c4d-8841-a7ad2170c9f0")
+	)
+	(fp_line
+		(start 2.5 1.5)
+		(end 1.5 2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "44cb7a28-326d-4c33-9384-8f0b289bb69a")
+	)
+	(fp_line
+		(start 2.5 2.5)
+		(end 2.5 -2.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afe7c15b-7f15-46cc-81b9-9ca75d6d71f6")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a322bba4-9935-4150-9da2-e20666e52b7c")
+	)
+	(pad "1" smd rect
+		(at -2.5 -1.6)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bb18f924-a27e-4c4d-a46b-8176eada0f61")
+	)
+	(pad "2" smd rect
+		(at -2.5 1.6)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9f1d45b7-ef4a-4173-bd04-936ae5b4b785")
+	)
+	(pad "3" smd rect
+		(at 2.5 1.6)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a9ab0afb-3463-476b-9de6-89410d1780b4")
+	)
+	(pad "4" smd rect
+		(at 2.5 -1.6)
+		(size 1.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3a66f7c6-5e54-4d0b-974c-f90d3a8b60a0")
+	)
+	(model "${KIPRJMOD}/kicad-packages3D/kbd-foostan.3dshapes/WS2812B.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
