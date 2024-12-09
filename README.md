@@ -10,11 +10,8 @@ snapeda.com often has symbols and footprints for components that are not in the 
 Archive 3D models:
 Copies 3D models to the project directory. This is useful for sharing projects.
 
-HierarchicalPCB:
+Place Footprints, Replicate Layout:
 Useful for layout of hierarchical sheets.
-
-Fabrication Toolkit:
-Plugin for generating correct format files for JLCPCB.
 
 Hide References:
 Hides the reference designators on the schematic.
@@ -24,6 +21,12 @@ Makes PCB trace inductors.
 
 pcb-action-tools:
 A number of tools, like snap components to grid.
+
+kicad-action-scripts:
+Via stitching.
+
+RF-tools:
+Via fences, etc.
 
 ### How to add the library to kicad
 
