@@ -5,29 +5,6 @@ named this way to match the default library names in KiCad.
 
 snapeda.com often has symbols and footprints for components that are not in the default KiCad.
 
-### Useful plugins from plugin/content manager
-
-Archive 3D models:
-Copies 3D models to the project directory. This is useful for sharing projects.
-
-Place Footprints, Replicate Layout:
-Useful for layout of hierarchical sheets.
-
-Hide References:
-Hides the reference designators on the schematic.
-
-Kicad Coil Generator:
-Makes PCB trace inductors.
-
-pcb-action-tools:
-A number of tools, like snap components to grid.
-
-kicad-action-scripts:
-Via stitching.
-
-RF-tools:
-Via fences, etc.
-
 ### How to add the library to kicad
 
 Add to symbol and footprint libraries project libraries.
